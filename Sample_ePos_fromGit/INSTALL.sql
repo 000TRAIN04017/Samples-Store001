@@ -2,3 +2,6 @@
 
 @FMT(CMP,@WIZGET(INSTALL_STEP)<3,'®FMT(CHR,26)');
 @EXEC(SQL=REFRESH_MENU);
+
+/* COPY SENCHA DYNA VIEWS - DO NOT ALTER*/
+@EXEC(EXE='xcopy.exe "@RUNSamples\@WIZGET(INSTALL_OPTION)\Htm\Dyna\*.*" "@OfficeHtm\Dyna\" /E /Y');
